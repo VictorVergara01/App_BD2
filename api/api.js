@@ -9,15 +9,21 @@ app.use(express.json());
 let posts = [
   {
     id: 1,
+    avatar:'https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg',
     image: 'https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg',
+    content: 'lsldsakldfkjsdlkfklsd',
     description: 'Descripción del post 1',
     author: 'Autor 1',
+    date: 'just now'
   },
   {
     id: 2,
+    avatar:'https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg',
     image: 'https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg',
     description: 'Descripción del post 2',
+    content: 'lsldsakldfkjsdlkfklsd',
     author: 'Autor 2',
+    date: 'just now'
   },
 ];
 
